@@ -1,0 +1,26 @@
+.contenedor1 {
+    width: 90%;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+p {
+    font-size: 25px;
+}
+.btn-agregar {
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background-color: rgb(151, 151, 230);
+}
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 0 auto;
+}
+td {
+    text-align: center;
+}

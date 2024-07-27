@@ -1,0 +1,109 @@
+body {
+
+}
+
+.titulo {
+    text-align: center;
+    
+}
+.container {
+    font-family: Arial, sans-serif;
+    width: 90%;
+    height:70vh;
+    display: flex;
+    font-size: 17px;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+
+.cart-container {
+   margin-right: 3%;
+   width: 60%;
+}             
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+thead {
+    text-align: center;
+    background-color: #f4f4f4;
+    
+}
+th{
+    padding: 10px;
+    
+}
+td {
+    padding: 5px;
+    text-align: center;
+    border-bottom: 1px solid rgb(0 0 0 /9%);
+    border-left: 1px solid rgb(0 0 0 /9%);
+}
+tr, td{
+    font-size: 17px;
+}
+
+.product {
+    display: flex;
+    align-items: center;
+}
+.cantidad{
+    align-self: center;
+}
+.btn-cantidad{
+    border: none;
+    cursor: pointer;
+    background-color:  black;;
+    color: white;
+
+}
+
+/* Diseño para la pasarela de pagos */
+.cart-summary {
+    width: 25%;
+    border: none;
+    padding: 20px;
+    background-color: #f4f4f4;
+    height: 350px;
+}
+
+.titulo-summary{
+ text-align: center;   
+}
+
+.Articulos{
+
+    display: flex;
+    justify-content: space-between;
+
+}
+.btn{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #333;
+    border-radius: 3px;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+    &:hover{
+        background-color: white;
+        border: 1px solid black;
+        color: black;
+        border-radius: 3px;
+    }
+}
+
+.paypal {
+    background-color: #3244a5;
+    color: white;
+}
+
+.paypal:hover {
+ background-color: white;  
+}

@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+}
+.header-main{
+    width: 100%;
+    /*height: 80px;*/
+    height: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(0 0 0 /9%);
+}
+.container-logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+
+}
+.nav{
+    width: 60%;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+
+}
+li{
+    color: black;
+    cursor: pointer;
+    font-size: 18px;
+    &:hover{
+        font-style: none;
+        border-bottom: 3px solid black;
+    }
+
+    @media(max-width: 780px){
+        display: none;
+    }
+}
+.container-cart{
+    font: white;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+.cart{
+  
+    &:hover{
+        cursor:pointer;
+    }
+}
+span{
+    padding: 30px;
+    font-size: 30px;
+    border-radius: 50px;
+}
+
+/*Estilos para el footer de la plantilla*/
+footer{
+    background-color:  #333333;
+    width: 100%;
+    height: 10vh;
+    color: #888888;
+}
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    font: white;
+}
